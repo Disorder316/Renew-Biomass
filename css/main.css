@@ -110,6 +110,9 @@ header p {
 .read-more {
 	float:right;
 }
+.hidden {
+	display:none; 
+}
 /* Footer Settings */ 
 footer {
 	background-color: #445745;
