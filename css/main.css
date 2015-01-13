@@ -1,0 +1,139 @@
+/* Main CSS File */
+
+/* Table of Contents 
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+/* Declare Main Element Styles */
+
+body {
+	font-family: 'Noticia Text', serif;
+	font-size: 17px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1 {
+	color: #FFF;
+	font-size: 44px;
+}
+p{
+  color: rgb(87, 84, 84);
+  line-height: 1.198;
+}
+
+/* Navigation Area Setting */
+.tagline {
+	float: right;
+	margin-top: 45px;
+	font-weight: bold;
+	padding-left: 20px;
+	
+}
+.navbar-brand > img {
+	border-right: 1px solid #aaa;
+	padding-right: 30px;
+}
+.navbar-nav {
+	margin-top: 40px;
+}
+.navbar-nav li {
+	border-right: 1px solid #aaa;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.border-left {
+	border-left: 1px solid #aaa;
+}
+.nav li a {
+	color: rgb(87, 84, 84);
+	font-weight:bold;
+}
+.nav li a:active {
+	color: rgb(68, 87, 69);
+}
+/* Header Area Settings */
+header {
+	background-color: #445745;
+	padding: 50px 0px;
+}
+header p {
+	color: #ccc;
+}
+/* Section Settings */
+.pannel, 
+.pannels {
+	position: relative;
+}
+.pannel-text {
+	position: absolute;
+	color: #fff;
+	width: 310px;
+	right: 39px;
+	top: 308px;
+	padding: 0px 12px;
+}
+.pannels {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.pannels h3 {
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+.pannels p,
+.pannels a {
+	color: #dcdcdc;
+}
+.pannels p {
+	text-align:left;
+	font-size: 14px;
+}
+.pannels a:hover {
+	text-decoration: none;
+}
+.read-more {
+	float:right;
+}
+/* Footer Settings */ 
+footer {
+	background-color: #445745;
+	padding: 50px 0px;
+}
+footer ul {
+	list-style-type: none;
+}
+footer ul li {
+	color: #cccccc;
+}
+footer ul h4 {
+	color: #fff;
+	font-weight: bold;
+}
+footer ul li a {
+	color: #cccccc;
+	text-decoration: none;
+}
+footer ul li a:hover {
+	color: #332F2F;
+	text-decoration: none;
+}
+footer ul li a:active {
+	color: #332F2F;
+	text-decoration: none;
+}
