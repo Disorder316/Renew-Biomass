@@ -19,19 +19,35 @@
 
 body {
 	font-family: 'Noticia Text', serif;
-	font-size: 17px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-size: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Noticia Text', serif;
+	font-weight: bold;
 }
 h1 {
 	color: #FFF;
 	font-size: 44px;
 }
+
 p{
   color: rgb(87, 84, 84);
   line-height: 1.198;
 }
-
+section {
+	padding: 15px 0px;
+}
+main section:first-of-type{
+	padding-top: 30px;
+}
+.green {
+	background-color: #445745;
+}
 /* Navigation Area Setting */
 .tagline {
 	float: right;
@@ -50,6 +66,12 @@ p{
 .navbar-nav li {
 	border-right: 1px solid #aaa;
 }
+.nav>li>a:hover, 
+.nav>li>a:focus {
+ text-decoration: none; 
+ background-color: #fff; 
+ outline: none;
+}
 .navbar-nav > li > a {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -66,15 +88,29 @@ p{
 .nav li a:active {
 	color: rgb(68, 87, 69);
 }
+.navbar-toggle .icon-bar {
+	background-color: #000;
+}
+.nav .open>a, 
+.nav .open>a:hover,
+.nav .open>a:focus {
+	background-color: #fff;
+	border-color: #aaa;
+}
 /* Header Area Settings */
 .banner {
-	background-color: #445745;
 	padding: 50px 0px;
 }
 .banner p {
 	color: #ccc;
 }
-/* Section Settings */
+/* Page Settings------------------------------------------------------------------------------------ */
+
+/* Home-Page Page Settings---------------------------------------------------------------------------*/
+
+/*Pannels Section------------------------
+---------------------------------------*/
+
 .pannel, 
 .pannels {
 	position: relative;
@@ -113,9 +149,35 @@ p{
 .hidden {
 	display:none; 
 }
-/* Footer Settings */ 
+/* Default Template Page Settings-------------------------------------------------------------------*/
+
+/* Main Content Section---------------
+-------------------------------------*/
+
+.main-content {
+	color: #666666;
+}
+
+
+
+/* About Us Page Settings-------------------------------------------------------------------------- */
+
+/* Environmental Content Section-------
+-------------------------------------*/
+.environmental-content {
+	background-image: url('../img/recycle.png');
+	background-repeat: no-repeat;
+	background-size: 57%;
+	background-position: center center;
+	margin-bottom: 150px;
+	display: none;
+}
+
+
+
+
+/* Footer Settings --------------------------------------------------------------------------------*/ 
 footer {
-	background-color: #445745;
 	padding: 50px 0px;
 }
 footer ul {
@@ -140,7 +202,7 @@ footer ul li a:active {
 	color: #332F2F;
 	text-decoration: none;
 }
-/* Media Queries */
+/* Media Queries -----------------------------------------------------------------------------------*/
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
