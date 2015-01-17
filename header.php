@@ -36,8 +36,9 @@
 					</div>	
 					<div class="collapse navbar-collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
+							<li><a class="border-left" href="index.php"> Home </a></li>
 							<li class="dropdown"> 
-								<a href="#" class="border-left dropdown-toggle" data-toggle="dropdown">Farmers</a>
+								<a href="index.php" class="dropdown-toggle" data-toggle="dropdown">Farmers</a>
 								<ul class="dropdown-menu">
 									<li><a href="/renew biomass/about.php">Why Renew Biomass?</a></li>
 									<li><a href="/renew biomass/why-miscanthus.php">Why Miscanthus?</a></li>

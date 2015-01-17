@@ -29,7 +29,9 @@ h5,
 h6 {
 	font-family: 'Noticia Text', serif;
 	font-weight: bold;
+	margin-top: 30px;
 }
+
 h1 {
 	color: #FFF;
 	font-size: 44px;
@@ -42,9 +44,7 @@ p{
 section {
 	padding: 15px 0px;
 }
-main section:first-of-type{
-	padding-top: 30px;
-}
+
 .green {
 	background-color: #445745;
 }
@@ -228,6 +228,7 @@ and (max-width : 320px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
+
 }
 
 /* iPads (landscape) ----------- */
@@ -236,6 +237,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 /* Styles */
+
 }
 
 /* iPads (portrait) ----------- */
@@ -260,6 +262,7 @@ and (max-width : 1199px) {
 		padding-right: 10px;
 		padding-left: 10px;
 	}
+
 	.pannel-text {
 		right: 0px;
 	}
