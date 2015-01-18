@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<div class="home">
 		<section class="banner green home">
 			<div class="container">
 				<div class="row">
@@ -48,7 +49,7 @@
 					
 					<div class="col-sm-4 col-md-4">
 						<div class="about-us-pannel pannel home-pannel">
-							<a href="#">	
+							<a href="about.php">	
 								<img src="img/myscanthus.jpg">
 								<div class="triangle"></div>
 								<div class="home-pannel-bottom green"></div>
@@ -63,5 +64,5 @@
 				</div>
 			</div>	
 		</section>
-
+</div>
 <?php include 'footer.php' ?>

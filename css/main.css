@@ -112,6 +112,15 @@ section {
 	background-color: #fff;
 	border-color: #aaa;
 }
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+.navbar-right .dropdown-menu {
+	left: 0;
+	right: auto;
+}
+
 /* Header Area Settings */
 
 .page-title {
@@ -177,10 +186,14 @@ section {
 	text-decoration: none;
 }
 
+.home .pannels {
+	padding-top: 20px;
+}
 .home-pannel {
 	height: 478px;
 	overflow: hidden;
 }
+
 .home-pannel img {
 	position: relative;
 	opacity: .5;
@@ -266,56 +279,7 @@ footer ul li a:active {
 }
 /* Media Queries -----------------------------------------------------------------------------------*/
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-}
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (max-width : 991px){
-	body {
-		font-size: 15px;
-	}
-	h1 {
-		font-size: 28px;
-	}
-	img {
-		max-width: 100%;
-	}
-
-}
 
 /* Desktops and laptops ----------- */
 @media only screen 
@@ -328,4 +292,28 @@ and (max-width : 1199px) {
 	.pannel-text {
 		right: 0px;
 	}
+}
+
+@media only screen and (max-width : 767px) {
+
+	.navbar-nav li {
+		border-right: none;
+		clear: both;
+		border: none;
+	}
+
+	ul.nav li.dropdown:hover > ul.dropdown-menu {
+ 	    display: none;    
+	    width: 100%;
+	}
+
+	.navbar-nav li {
+		text-align: right;
+	}
+
+
+
+
+
+
 }

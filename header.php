@@ -30,7 +30,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand" href="index.php">
 							<img alt="Renew Biomass Brand" src="img/logo.jpg">
 						</a>	
 							<p class="tagline"> Commited to the success<br>of our clients. </p>
