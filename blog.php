@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h1>Blog</h1>
+				<h1 class="page-title">Blog</h1>
 			</div>
 		</div>
 	</div>	

@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h1>Industrial Absorbent</h1>
+				<h1 class="page-title">Industrial Absorbent</h1>
 			</div>
 		</div>
 	</div>	

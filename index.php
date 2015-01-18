@@ -1,12 +1,12 @@
 <?php include 'header.php' ?>
-		<section class="banner green">
+		<section class="banner green home">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-sm-8">
-						<h1>Highest-quality, renewable absorbent products for your needs.</h1>
+					<div class="col-md-6 col-sm-8">
+						<h1 class="page-title">Highest-quality, renewable absorbent products for your needs.</h1>
 						<p>Our Commercial Products are each customized to your specific<br>absorbent, abrasion, carrier or filler application. <a href="#">See how. &rsaquo;&rsaquo;</a></p>
 					</div>
-					<div class="col-md-4 col-sm-4">
+					<div class="col-md-4 col-sm-4 col-md-offset-2">
 						<img alt="Three tractors planting crops" src="img/header-tractor.jpg"></img>
 					</div>
 				</div>

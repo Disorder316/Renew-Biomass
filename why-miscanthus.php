@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h1>Why Miscanthus?</h1>
+				<h1 class="page-title">Why Miscanthus?</h1>
 			</div>
 		</div>
 	</div>	
