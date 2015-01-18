@@ -37,16 +37,16 @@
 					</div>	
 					<div class="collapse navbar-collapse" id="navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="border-left" href="index.php"> Home </a></li>
+							<li><a class="border-left" href="index.php">Home </a></li>
 							<li class="dropdown"> 
-								<a href="index.php" class="dropdown-toggle" data-toggle="dropdown">Farmers</a>
+								<a href="for-farmers.php" class="dropdown-toggle" >Farmers</a>
 								<ul class="dropdown-menu">
 									<li><a href="/renew biomass/about.php">Why Renew Biomass?</a></li>
 									<li><a href="/renew biomass/why-miscanthus.php">Why Miscanthus?</a></li>
 								</ul>	
 							</li>	
 							<li class="dropdown"> 
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Industries</a>
+								<a href="for-industries.php" class="dropdown-toggle">Industries</a>
 								<ul class="dropdown-menu">
 									<li><a href="/renew biomass/chemical-carriers.php">Chemical Carriers</a></li>
 									<li><a href="/renew biomass/oil-fracking.php">Oil Fracking</a></li>
@@ -55,7 +55,7 @@
 								</ul>	
 							</li>	
 							<li class="dropdown"> 
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+								<a href="about.php" class="dropdown-toggle" >About</a>
 								<ul class="dropdown-menu">
 									<li><a href="/renew biomass/industries.php">Our Products</a></li>
 									<li><a href="/renew biomass/our-capabilities.php">Our Capabilities</a></li>
