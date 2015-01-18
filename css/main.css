@@ -150,10 +150,8 @@ section {
 .pannel-text {
 	position: absolute;
 	color: #fff;
-	width: 310px;
-	right: 39px;
-	top: 308px;
-	padding: 0px 12px;
+	bottom: 0;
+	padding: 20px;
 }
 .pannels {
 	padding-top: 70px;
@@ -175,12 +173,41 @@ section {
 .pannels a:hover {
 	text-decoration: none;
 }
+
+.home-pannel {
+	height: 478px;
+	overflow: hidden;
+}
+.home-pannel img {
+	position: relative;
+	opacity: .5;
+	width: 100%;
+}
 .read-more {
 	float:right;
 }
 .hidden {
 	display:none; 
 }
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 400px 400px;
+	border-color: transparent transparent #445745 transparent;
+}
+
+.home-pannel .triangle {
+	position: absolute;
+	bottom: 80px;
+}
+.home-pannel-bottom {
+	position: absolute;
+	height: 80px;
+	width:100%;
+	bottom: 0;
+} 
 /* Default Template Page Settings-------------------------------------------------------------------*/
 
 /* Main Content Section---------------

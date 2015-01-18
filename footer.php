@@ -36,22 +36,6 @@
 				</div>
 			</div>
 		</footer>
-<script>
-$(document).ready(function() {
-	
-		$('.pannel').mouseover( function(){
-				$(this).find('img').hide();
-				$(this).find('img.on-hover').show();
-			});
-		$('.pannel').mouseleave( function(){
-				$(this).find('img').hide();
-				$(this).find('img.no-hover').show();
-			});
-});
-
-
-
-</script>
 
 	</body>
 </html>	
